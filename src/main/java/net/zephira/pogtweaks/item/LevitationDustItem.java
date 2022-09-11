@@ -10,9 +10,9 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 
-public class LevitationDust extends Item {
+public class LevitationDustItem extends Item {
 
-    public LevitationDust(Settings settings) {
+    public LevitationDustItem(Settings settings) {
         super(settings);
     }
     

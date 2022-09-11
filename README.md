@@ -1,7 +1,7 @@
 # PogcraftTweaks - Fabric Edition!!
  
 Planned Features
-- Reswpaning Dragon Egg
+- Dragon Egg Generator
 - Sash of Speed
 - Sash of Building
 - Sash of Travel*

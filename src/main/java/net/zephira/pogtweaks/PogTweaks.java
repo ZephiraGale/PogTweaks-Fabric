@@ -1,7 +1,6 @@
 package net.zephira.pogtweaks;
 
 import net.fabricmc.api.ModInitializer;
-import net.zephira.pogtweaks.item.ModItems;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +13,7 @@ public class PogTweaks implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
