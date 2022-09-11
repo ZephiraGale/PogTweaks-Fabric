@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "pogtweaks",
+  "version": "${version}",
+
+  "name": "PogTweaks",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/ZephiraGale/PogTweaks-Fabric"
+  },
+
+  "license": "MIT license",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.zephira.pogtweaks.PogTweaks"
+    ],
+    "client": [
+      "net.zephira.pogtweaks.PogTweaksClient"
+    ]
+  },
+  "mixins": [
+    "pogtweaks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
