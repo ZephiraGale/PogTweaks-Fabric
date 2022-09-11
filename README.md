@@ -1,4 +1,4 @@
-# PogcraftTweaks
+# PogcraftTweaks - Fabric Edition!!
  
 Planned Features
 - Reswpaning Dragon Egg
