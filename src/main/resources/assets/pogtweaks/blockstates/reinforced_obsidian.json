@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "" : {
+            "model": "pogtweaks:block/reinforced_obsidian"
+        }
+    }
+}
