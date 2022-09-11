@@ -25,6 +25,10 @@ repositories {
         name "jitpack"
         url "https://jitpack.io"
     }
+	maven {
+        name "mod menu"
+        url "https://api.modrinth.com/maven"
+    }
 
 
 	// Add repositories to retrieve artifacts from in here.
@@ -43,8 +47,16 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	// 
+	modApi "com.terraformersmc:modmenu:4.0.6"
+
 	//Trinkets API
-	// modImplementation "dev.emi:trinkets:${trinkets_version}"
+	modImplementation "dev.emi:trinkets:${trinkets_version}"
+
+	// Trinkets API from Bewitchment
+	// modImplementation "com.github.emilyalexandra:trinkets:${trinkets_version}"
+	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cardinal_components_version}"
+    modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cardinal_components_version}"
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
