@@ -1,4 +1,4 @@
-package net.zephira.pogtweaks;
+package net.zephira.pogtweaks.init;
 
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -11,6 +11,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.zephira.pogtweaks.PogTweaks;
 
 public class ModBlocks {
 

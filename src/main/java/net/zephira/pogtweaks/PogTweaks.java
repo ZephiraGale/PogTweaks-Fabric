@@ -1,6 +1,8 @@
 package net.zephira.pogtweaks;
 
 import net.fabricmc.api.ModInitializer;
+import net.zephira.pogtweaks.init.ModBlocks;
+import net.zephira.pogtweaks.init.ModItems;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

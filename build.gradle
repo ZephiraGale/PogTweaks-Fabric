@@ -22,12 +22,20 @@ repositories {
 		url = "https://ladysnake.jfrog.io/artifactory/mods"
 	}
 	maven {
-        name "jitpack"
+        name "Trinkets, Step Height"
         url "https://jitpack.io"
     }
 	maven {
         name "mod menu"
         url "https://api.modrinth.com/maven"
+    }
+
+	maven {
+		name "Reach Attribute"
+        url "https://maven.jamieswhiteshirt.com/libs-release"
+        content {
+            includeGroup "com.jamieswhiteshirt"
+        }
     }
 
 
@@ -47,16 +55,23 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// 
+	// Mod Menu
 	modApi "com.terraformersmc:modmenu:4.0.6"
 
-	//Trinkets API
+	// Trinkets API
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
 
-	// Trinkets API from Bewitchment
-	// modImplementation "com.github.emilyalexandra:trinkets:${trinkets_version}"
+	// Cardinal Components for Trinkets API
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${cardinal_components_version}"
     modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${cardinal_components_version}"
+
+	// Reach Attribute
+	//modImplementation "com.jamieswhiteshirt:reach-entity-attributes:2.3.0"
+	//include "com.jamieswhiteshirt:reach-entity-attributes:2.3.0"
+
+	// Step Height Attribute
+	modImplementation "com.github.emilyploszaj:step-height-entity-attribute:v1.0.1" 
+	include "com.github.emilyploszaj:step-height-entity-attribute:v1.0.1"
 
 	// Uncomment the following line to enable the deprecated Fabric API modules. 
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
