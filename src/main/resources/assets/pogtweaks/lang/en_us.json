@@ -2,5 +2,7 @@
     "item.pogtweaks.levitation_dust": "Dust of Levitation",
     "itemGroup.pogtweaks": "PogCraft Tweaks",
     "block.pogtweaks.reinforced_obsidian": "Reinforced Obsidian",
-    "item.pogtweaks.speed_sash": "Belt of Speed"
+    "item.pogtweaks.speed_sash": "Sash of Speed",
+    "item.pogtweaks.upgrade_sash": "Greater Sash Of Speed",
+    "item.pogtweaks.utility_sash": "Utility Belt"
 }

@@ -13,6 +13,10 @@ public class ModItems {
 
     public static final Item LEVITATION_DUST = registerItem("levitation_dust", new LevitationDustItem(new FabricItemSettings().group(ItemGroup.MISC)));
     public static final Item SPEED_SASH = registerItem("speed_sash", new SashItem(new FabricItemSettings().group(ItemGroup.TRANSPORTATION)));
+    public static final Item UPGRADE_SASH = registerItem("upgrade_sash", new SashItem(new FabricItemSettings().group(ItemGroup.TRANSPORTATION).fireproof(), 0.065));
+    public static final Item UTILITY_SASH = registerItem("utility_sash", new SashItem(new FabricItemSettings().group(ItemGroup.TRANSPORTATION).fireproof(), 0.045, "hands/ring"));
+
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(PogTweaks.MOD_ID, name), item);

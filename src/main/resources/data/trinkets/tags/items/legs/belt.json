@@ -1,6 +1,8 @@
 {
     "replace": false,
     "values": [
-        "pogtweaks:speed_sash"
+        "pogtweaks:speed_sash",
+        "pogtweaks:upgrade_sash",
+        "pogtweaks:utility_sash"
     ]
 }
